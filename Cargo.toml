@@ -1,0 +1,13 @@
+[package]
+name = "catwalk"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97.1"
+license = "MIT"
+repository = "https://github.com/Ashintosh/catwalk"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.4", features = ["derive"] }
+thiserror = "2.0.19"
+walkdir = "2.5.0"
